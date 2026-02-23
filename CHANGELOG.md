@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.4.3] - 23.02.2026
+
+### Added
+
+- Added escape binding to close ModalScreen. Thanks to @zaloog for this! Merged PR #22. Fixes #21.
+
+### Adjusted
+
+- Adjusted Binding visibility. Thanks to @zaloog for this! Merged PR #23. Fixes #20.
+
 ## [0.4.2] - 17.02.2026
 
 ### Updated
@@ -117,6 +127,7 @@ Initial release with the following features:
 - Delete cron jobs
 - Check "last run" and "next run" times, in a formatted way
 
+[0.4.3]: https://github.com/antoniorodr/cronboard/releases/tag/v0.4.3
 [0.4.2]: https://github.com/antoniorodr/cronboard/releases/tag/v0.4.2
 [0.4.1]: https://github.com/antoniorodr/cronboard/releases/tag/v0.4.1
 [0.4.0]: https://github.com/antoniorodr/cronboard/releases/tag/v0.4.0
