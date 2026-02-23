@@ -7,14 +7,7 @@ from textual.screen import ModalScreen
 
 
 class CronDeleteConfirmation(ModalScreen[bool]):
-
-    BINDINGS = [
-        Binding(
-            key="escape",
-            action="close_modal",
-            description="Close"
-        )
-    ]
+    BINDINGS = [Binding(key="escape", action="close_modal", description="Close")]
 
     def __init__(
         self,
